@@ -1,0 +1,7 @@
+MAIL_SERVER=server62.hostingraja.org
+MAIL_PORT=465
+MAIL_USE_SSL=True
+MAIL_USE_TLS=False
+MAIL_USERNAME=sales@astroimpulse.in
+MAIL_PASSWORD=Astroimpulse@123
+MAIL_DEFAULT_SENDER=AstroImpulse sales@astroimpulse.in

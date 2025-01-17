@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: astroimpulse
+    env: docker
+    plan: free
+    region: oregon
+    healthCheckPath: /
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: MAIL_SERVER
+        value: server62.hostingraja.org
+      - key: MAIL_PORT
+        value: 465
+      - key: MAIL_USE_SSL
+        value: true
+      - key: MAIL_USE_TLS
+        value: false
+      - key: MAIL_USERNAME
+        value: sales@astroimpulse.in
+      - key: MAIL_PASSWORD
+        value: Astroimpulse@123
+      - key: MAIL_DEFAULT_SENDER
+        value: "AstroImpulse <sales@astroimpulse.in>"
